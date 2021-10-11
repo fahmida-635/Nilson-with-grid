@@ -1,0 +1,521 @@
+
+/*	Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.container{
+		width: 1000px;
+	}
+	/* header-area */
+	.header-area {
+		padding: 20px;
+	}
+	.logo {
+		margin-right: 0px;
+	}
+	.menu {
+		margin-left: 10px;
+	}
+	.menu ul li {
+		margin: 0px;
+	}
+	.menu ul li a {
+		padding: 5px 8px;
+	}
+	.hire-button {
+		padding: 7px 13px;
+		font-size: 15px;
+		margin-top: 0px;
+	}
+	.box-button {
+		padding: 7px 12px;
+		font-size: 17px;
+	}
+	
+	/* welcome-area */
+	.welcome-content {
+		padding-top: 70px;
+		padding-left: 90px;
+	}
+	.welcome-content h1 {
+		font-size: 45px;
+	}
+	.welcome-content h3 {
+		padding: 10px;
+	}
+	.welcome-content ul {
+		padding-top: 10px;
+	}
+	.welcome-content ul li {
+		padding: 5px 10px;
+	}
+	
+	/* bio-area */
+	.bio-area p {
+		font-size: 25px;
+	}
+	
+	/* about-area */
+	.about-image {
+		height: 385px;
+	}
+	.about-image::before {
+		top: 20px;
+		left: 27px;
+	}
+	.about-image::after {
+		top: 40px;
+		left: 55px;
+	}
+	.about-image img {
+		width: 60%;
+	}
+	.about-content h2 {
+		margin-left: 0px;
+		color: black;
+	}
+	.about-content ul li {
+		padding: 0px 10px;
+	}
+	.about-content ul li a {
+		color: black;
+	}
+	.about-info {
+		padding-left: 40px;
+	}
+	
+	/* section-title */
+	.section-title h2 {
+		font-size: 37px;
+	}
+	
+	/* experience-area */
+	.single-experience {
+		padding: 5px;
+		margin-bottom: 35px;
+	}
+	.single-experience p {
+		padding-top: 8px;
+	}
+	
+	/* hire-area */
+	.hire-info h2 {
+		padding-bottom: 12px;
+		font-size: 35px;
+	}
+	
+	/* work-area */
+	.single-work {
+		margin-bottom: 0px;
+	}
+	.single-work h2 {
+		padding-bottom: 12px;
+		padding-top: 40px;
+	}
+	
+	/* portfolio-area */
+	.portfolio-left h2 {
+		font-size: 38px;
+		padding-top: 20px;
+		padding-bottom: 15px;
+	}
+	.portfolio-left ul {
+		padding-left: 113px;
+	}
+	
+	/* pricing-area */
+	.single-pricing {
+		margin-top: 0px;
+		padding: 15px;
+	}
+	.single-pricing h4 {
+		padding-bottom: 15px;
+	}
+	.single-pricing h2 {
+		font-size: 27px;
+	}
+	.single-pricing h2 span {
+		font-size: 40px;
+	}
+	.single-pricing ul li {
+		padding-bottom: 10px;
+	}
+	
+	/* blog-area */
+	.blog-content ul li {
+		font-size: 16px;
+		padding-right: 5px;
+	}
+	.blog-content a h2 {
+		font-size: 20px;
+		padding-bottom: 20px;
+	}
+	
+	/* client-area */
+	
+	
+	/* footer-area */
+	.footer-info h1 {
+		font-size: 42px;
+	}
+	.footer-info p {
+		font-size: 22px;
+		margin-bottom: 10px;
+	}
+	
+}
+
+/*	Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.container{
+		width: 800px;
+	}
+	.header-area {
+		padding: 20px 10px;
+	}
+	.logo {
+		margin-right: 0px;
+	}
+	.menu {
+		margin-left: 0px;
+	}
+	.menu ul li {
+		margin: 0px;
+	}
+	.hire-button {
+		padding: 2px 1px;
+		font-size: 17px;
+		margin-top: 0px;
+	}
+	
+	/* welcome-area */
+	.welcome-content {
+		padding: 10px;
+	}
+	.welcome-content h3 {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	.welcome-content ul {
+		padding: 10px 0;
+	}
+	.welcome-content ul li {
+		padding: 0px 10px;
+	}
+
+	/* bio-area */
+	.bio-area p {
+		font-size: 25px;
+	}
+	
+	/* about-area */
+	.about-left {
+		padding-left: 20px;
+	}
+	.about-image {
+		height: 350px;
+	}
+	.about-image img {
+		width: 65%;
+		margin-left: 30px;
+		margin-top: 27px;
+	}
+	.about-image::before {
+		top: 15px;
+		left: 23px;
+	}
+	.about-image::after {
+		top: 30px;
+		left: 45px;
+	}
+	.about-content h2 {
+		font-size: 27px;
+		margin-left: 0px;
+		margin-top: 0px;
+		color: black;
+	}
+	.about-content ul {
+		padding-left: 10PX;
+	}
+	.about-content ul li {
+		padding: 5px 10px;
+	}
+	.about-content ul li a {
+		color: #462e2e;
+		font-size: 23px;
+	}
+	.about-info {
+		padding-left: 30px;
+	}
+	.about-list-left {
+		padding-left: 30px;
+	}
+	
+	.box-button {
+		padding: 8px 20px;
+	}
+	
+	/* skill-area */
+	.skill-left {
+		padding-left: 20px;
+	}
+	.skill-right {
+		padding-right: 20px;
+	}
+	
+	.section-title h2 {
+		font-size: 40px;
+	}
+	
+	/* experience-area */
+	.single-experience {
+		padding: 5px;
+		margin-bottom: 27px;
+	}
+	
+	/* hire-area */
+	.hire-info h2 {
+		margin-bottom: 15px;
+		font-size: 33px;
+	}
+	
+	/* work-area */
+	.single-work h2 {
+		margin-bottom: 10px;
+		padding-top: 35px;
+	}
+	.single-work p {
+		
+	}
+	
+	
+	/* portfolio-area */
+	.portfolio-left h2 {
+		font-size: 33px;
+		padding: 10px;
+	}
+	.portfolio-left ul {
+		padding-left: 40px;
+		padding-top: 10px;
+	}
+	
+	.single-counter p {
+		font-size: 18px;
+	}
+	.single-pricing {
+		margin-top: 15px;
+		padding: 15px;
+	}
+	.single-pricing h4 {
+		margin-bottom: 15px;
+	}
+	.single-pricing h2 {
+		font-size: 25px;
+		margin-bottom: 15px;
+	}
+	.single-pricing h2 span {
+		font-size: 35px;
+	}
+	
+	
+	/* footer-area */
+	.footer-info h1 {
+		font-size: 45px;
+	}
+	.footer-info p {
+		font-size: 20px;
+	}
+	
+}
+
+/*	Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+	.container{
+		width: 300px;
+	}
+	.menu ul li {
+		display: inline-block;
+	}
+	.menu ul li a {
+		font-size: 17px;
+		padding: 0px 20px;
+	}
+	.hire-button {
+		padding: 5px 10px;
+		font-size: 17px;
+		margin-top: 7px;
+	}
+	
+	/* welcome-area */
+	.welcome-content {
+		padding-left: 0px;
+	}
+	.welcome-content h1 {
+		font-size: 43px;
+		padding-top: 25px;
+	}
+	.welcome-content h3 {
+		font-size: 25px;
+		padding: 5px 0px;
+	}
+	
+	.welcome-content ul {
+		margin: 0px;
+	}
+	.welcome-content ul li {
+		padding: 5px 8px;
+	}
+	
+	/* bio-area */
+	.bio-area p {
+		font-size: 20px;
+		margin: 0px;
+	}
+	
+	
+	
+	/* about-area */
+	.about-image {
+		height: 250px;
+	}
+	.about-image::before {
+		top: 10px;
+		left: 18px;
+	}
+   .about-image::after {
+		top: 24px;
+		left: 40px;
+	}
+	
+	/* section-title */
+	.section-title {
+		padding-bottom: 0px;
+	}
+	.section-title h2 {
+		font-size: 35px;
+	}
+	
+	
+	
+	
+	
+	/* work-area */
+	.single-work {
+		height: 150px;
+		padding-top: 10px;
+	}
+	.single-work h2 {
+		font-size: 25px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.single-work p {
+		padding: 5px 10px;
+		display: inline-block;
+	}
+	
+	/* portfolio-area */
+	.portfolio-left {
+		height: 200px;
+	}
+	.portfolio-left h2 {
+		font-size: 30px;
+		padding-top: 10px;
+	}
+	.portfolio-left ul {
+		padding-left: 15px;
+	}
+	.portfolio-left ul li {
+		padding: 10px 0px;
+	}
+	
+	/* counter-area */
+	.single-counter h2 {
+		font-size: 25px;
+	}
+	.single-counter p {
+		font-size: 17px;
+	}
+	
+	/* price-area */
+	.single-pricing {
+		margin-top: 10px;
+		padding: 5px;
+	}
+	.single-pricing h4 {
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+	.single-pricing h2 {
+		font-size: 18px;
+		margin-bottom: 15px;
+	}
+	.single-pricing h2 span {
+		font-size: 35px;
+	}
+	.single-pricing ul li {
+		font-size: 16px;
+		margin-bottom: 17px;
+	}
+	.standard {
+		font-size: 14px;
+		top: 24%;
+		left: -48px;
+		padding: 4px 9px;
+	}
+	.box-button {
+		padding: 7px 12px;
+		font-size: 16px;
+		font-weight: 700;
+	}
+	
+	/* hire-area */
+	.hire-info h2 {
+		margin-bottom: 15px;
+		font-size: 25px;
+	}
+	.box-button {
+		padding: 10px 11px;
+		font-size: 16px;
+		font-weight: 600;
+	}
+	
+	/* testimonial-area */
+	.single-testimonial {
+		padding: 10px;
+	}
+	.testimonial-content h4 {
+		font-size: 16px;
+		padding: 10px 0;
+	}
+	
+	/* client-area */
+	.client-info h2 {
+		font-size: 23px;
+	}
+	
+	/* footer-area */
+	.footer-info h1 {
+		font-size: 40px;
+		padding-bottom: 10px;
+	}
+	.footer-info p {
+		font-size: 20px;
+		padding: 0px;
+		margin-bottom: 30px;
+	}
+	
+	.footer-copyright h4 {
+		font-size: 15px;
+		padding-top: 0px;
+	}
+	
+}
+
+/*	Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+	
+	
+	
+	
+}
